@@ -1,0 +1,43 @@
+Object Orientation is thinkinhg process
+To write the object Orientation code we have to create class
+class is consider as data type in python which contains 2 things in it.
+1) Characteristics 
+2) Behaviours
+
+Data members of class are consider as Characteristics.
+When we create object of a class memory for Characteristics gets allocated.
+
+Behaviours are consider as functions
+functions are used to provide the facility to the class users.
+
+When we create object of a class one function gets automatically called which is consider as constructor.
+In Python __init__ is consider as constructor.
+constructor is consider as callback function because it is define by programmer and called by some outsider entity
+
+After creating object of class by using . operator we can access Characteristics as well as Behaviours of a class
+
+object is consider as instance of class
+
+types of variables(Characteristics)
+
+there are two types of variables in class as instance variable and class variable
+
+instance variable is such variable which is created inside the __init__ method using self keyword
+
+about instance variable
+1) It should be created __init__ method
+2) To access it self keyword is compalsory
+3) To access it outsider class we have to create the object
+4) If value of instance variable updated by using first object then there will be no change in second object
+
+about class variable
+1) It should be create outside __init__ method
+2) There is no need of self keyword to access the class variable, class variable gets shared between all object of a class
+3) To access class variable outside the class we need class name
+
+about instance method
+1)First parameter of instance method should be always SELF.
+2) To call the instance method we need OBJECT of class.
+*3) Inside instance method we can access instance variable as well as class variable
+4) To access class variable inside instance method we have to use name of class and to access instance variable
+we need to use self keyword
