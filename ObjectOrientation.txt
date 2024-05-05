@@ -41,3 +41,7 @@ about instance method
 *3) Inside instance method we can access instance variable as well as class variable
 4) To access class variable inside instance method we have to use name of class and to access instance variable
 we need to use self keyword
+
+to define class method we have to user decorator @classmethod
+for the class method instead of self keyword we have to use cls keyword 
+To call the class method
