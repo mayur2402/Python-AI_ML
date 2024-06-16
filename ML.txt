@@ -1,0 +1,9 @@
+Classification is used to predict the class
+Regeration is used to predict the values.
+
+
+R square method is statistical method in regression that determins proportion of variance,
+in between the values of dependent variables and independent variable 
+
+R^2 = SUM((Yp - Y_Bar)^2)/SUM((Y - Y_Bar)^2)
+
