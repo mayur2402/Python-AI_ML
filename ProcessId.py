@@ -37,7 +37,7 @@ def CreateLog(FileName = "Log.log"):
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("mayurdimble99@gmail.com", "Sarika@1234567890")
+    s.login("mayurdimble99@gmail.com", "*****")
     message = "Message_you_need_to_send"
     s.sendmail("mayurdimble99@gmail.com", "mayurdimble412105@gmail.com", message)
     s.quit()
