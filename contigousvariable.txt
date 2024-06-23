@@ -1,0 +1,11 @@
+contiguous variable it is type of variable which can have infinite number of values in a specific range.
+Categorical Variable It is type of variable which have discrete qualitative value.
+
+
+Confusion matrix - 
+1) True Positive - Detected as yes & it's actually yes
+2) True Negative - Detected as no & it's actually no
+3) False Positive - Detected as yes & it's actually no  (type 1 error)
+4) False Negative - Detected as no & it's actually yes  (type 2 error)
+
+it is only applicable for supervise machine learning because in unsupervised machine learning we don't know about actual answer and only applicable for classification problem statement(not applicable for regression)
